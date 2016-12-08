@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cinch (2.3.3)
+    easy_diff (1.0.0)
+    rufus-scheduler (3.3.0)
+      tzinfo
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cinch
+  easy_diff
+  rufus-scheduler
+
+BUNDLED WITH
+   1.13.2
