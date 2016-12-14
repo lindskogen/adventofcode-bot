@@ -60,7 +60,7 @@ def pretty_print_challenges_diff(prev, diff)
 		challenges_completed.map do |day|
 			day, chs = day
 			chs = chs.keys.sort.join ' and '
-			"#{name} finished challenge #{chs} day #{day}!!"
+			"#{name} finished challenge #{chs} day #{day}!"
 		end.flatten
 	end.flatten
 end
